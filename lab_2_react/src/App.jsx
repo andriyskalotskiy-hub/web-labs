@@ -3,6 +3,7 @@ import AboutMe from './components/AboutMe'
 import Education from './components/Education'
 import StudyProjects from './components/StudyProjects'
 import Skills from './components/Skills'
+import Interests from './components/Interests'
 import CvFooter from './components/CvFooter'
 
 const studyProjects = [
@@ -29,6 +30,7 @@ export default function App() {
         <Education />
         <StudyProjects projects={studyProjects} />
         <Skills />
+        <Interests />
       </main>
       <CvFooter />
     </>

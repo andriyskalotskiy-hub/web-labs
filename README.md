@@ -9,7 +9,7 @@
 - Для обох версій навмисно залишено стандартне оформлення браузера.
   CSS і Tailwind додаються вже в лабораторній № 3.
 
-Компоненти: `CvHeader`, `AboutMe`, `Education`, `StudyProjects`, `Skills`, `CvFooter`.
+Компоненти: `CvHeader`, `AboutMe`, `Education`, `StudyProjects`, `Skills`, `Interests`, `CvFooter`.
 Ім’я та група передаються в `CvHeader` через props, а список робіт — у `StudyProjects`.
 
 ## Як відкрити HTML
@@ -40,7 +40,7 @@ npm run dev
 
 1. HTML-резюме в браузері.
 2. React-резюме з адресою localhost.
-3. Дерево компонентів у React Developer Tools: App і шість дочірніх компонентів.
+3. Дерево компонентів у React Developer Tools: App і сім дочірніх компонентів.
    Розширення React Developer Tools встановлюється з офіційного магазину Chrome.
    Після встановлення слід закрити DevTools, оновити сторінку й знову натиснути F12.
    Components може бути у меню » вгорі DevTools. Якщо приховано App, очистити пошук.
@@ -84,3 +84,6 @@ git log --oneline
 `npm run build` і `npm run lint` завершилися успішно.
 Серверний рендер React має такий самий текст, посилання й розділи, як HTML-версія.
 Скриншот React Developer Tools потрібно отримати у браузері під час запуску `npm run dev`.
+
+Дані про ліцей, мови, англійську B2 та інтереси уточнені користувачем.
+Темний ескіз винесено в окрему папку preview_dark поруч із lab_2.
